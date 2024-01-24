@@ -1,0 +1,19 @@
+<script type="text/javascript">
+    // 11. Write a JavaScript program to create basic calculator using ledder if else.
+
+    var a = parseInt(prompt("Enter no A :- "));
+    var b = parseInt(prompt("Enter no B :- "));
+    var choise = prompt("Enter  +    ,   -   ,   *    ,   /");
+
+    if (choise == '+') {
+        document.write(`<h1>Sum = ${a+b}</h1>`);
+    } else if (choise == '-') {
+        document.write(`<h1>Sum = ${a-b}</h1>`);
+    } else if (choise == '*') {
+        document.write(`<h1>Sum = ${a*b}</h1>`);
+    } else if (choise == '/') {
+        document.write(`<h1>Sum = ${a/b}</h1>`);
+    } else {
+        ocument.write(`<h1>Please Enter Valid Details.</h1>`);
+    }
+</script>

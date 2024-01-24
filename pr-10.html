@@ -1,0 +1,24 @@
+<script type="text/javascript">
+    // 10. Write a JavaScript program to create basic calculator using switch case.
+
+    var a = parseInt(prompt("Enter no A :- "));
+    var b = parseInt(prompt("Enter no B :- "));
+    var choise = prompt("Enter  +    ,   -   ,   *    ,   /");
+
+    switch (choise) {
+        case '+':
+            document.write(`<h1>Sum = ${a+b}</h1>`);
+            break;
+        case '-':
+            document.write(`<h1>Sum = ${a-b}</h1>`);
+            break;
+        case '*':
+            document.write(`<h1>Sum = ${a*b}</h1>`);
+            break;
+        case '/':
+            document.write(`<h1>Sum = ${a/b}</h1>`);
+            break;
+        default:
+            document.write(`<h1>Please Enter Valid Details.</h1>`);
+    }
+</script>

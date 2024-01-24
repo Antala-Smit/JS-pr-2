@@ -1,0 +1,12 @@
+<script type="text/JavaScript">
+    // 3.Write a JavaScript program to check year is leap year or not leap year.
+
+    var year = parseInt(prompt("Enter no:- "));
+
+    if((0 == year % 4) && (0 != year % 100) || (0 == year % 400)){
+        document.write(`<h3>This is leap year.</h3>`);
+    }else {
+        document.write(`<h3>This is Not leap year.</h3>`);
+    }
+
+</script>

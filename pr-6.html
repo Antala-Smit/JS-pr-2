@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    // 6.Write a Javascript program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer.
+
+    var Physics = parseInt(prompt("Enter Physics marks :- "));
+    var Chemistry = parseInt(prompt("Enter Chemistry marks :- "));
+    var Biology = parseInt(prompt("Enter Biology marks :- "));
+    var Mathematics = parseInt(prompt("Enter Mathematics marks :- "));
+    var Computer = parseInt(prompt("Enter Computer marks :- "));
+
+    var per = (Physics + Chemistry + Biology + Mathematics + Computer)/5;
+        document.write(`<h3>Percentage = ${per} </h3>`);
+
+    if(per >= 90){
+        document.write(`<h3> Grade A</h3>`);
+    }else if (per >= 80){
+        document.write(`<h3> Grade B</h3>`);
+    }else if (per >= 70){
+        document.write(`<h3> Grade C</h3>`);
+    }else if (per >= 60){
+        document.write(`<h3> Grade D</h3>`);
+    }else if (per >= 50){
+        document.write(`<h3> Grade E</h3>`);
+    }else if (per >= 40){
+        document.write(`<h3> Grade F</h3>`);
+    }else{
+        document.write(`<h3>Fail</h3>`);
+    }
+    
+
+</script>
